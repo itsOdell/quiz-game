@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App</title>
+</head>
+<body>
+    <header>
+        <h2 class="result"></h2>
+    </header>
+    <main>
+        <div class="container">
+            <div class="q-container">
+                <p id="question">Question</p>
+            </div>
+            <form action="">
+                <ul class="items">
+                    <li>
+                        <input type="radio" name="question" id="a" value="a">
+                        <label for="a" id="choiceA">Choice</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="question" id="b" value="b">
+                        <label for="b" id="choiceB">Choice</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="question" id="c" value="c">
+                        <label for="c" id="choiceC">Choice</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="question" id="d" value="d">
+                        <label for="d" id="choiceD">Choice</label>
+                    </li>
+                </ul>
+            </form>
+            <button id="check">Answer</button>
+        </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
