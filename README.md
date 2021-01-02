@@ -1,2 +1,2 @@
 # quiz-game
-It's is about Islam
+It's about Islam
